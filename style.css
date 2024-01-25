@@ -1,0 +1,86 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+
+body{
+  font-family: 'Montserrat', sans-serif;
+   
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+     padding: 0px 80px; 
+    height: 96px;
+    align-items: center;
+    
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+nav ul li{padding: 20px 40px;
+}
+nav ul li a{text-decoration: none;
+color:#4d4c54;}
+nav button{padding: 12px 24px;
+    border-radius: 8px;
+    border:none ;
+    font-size: 16px;
+    background-color:  #7162b5;;
+    color: white;
+    cursor: pointer;
+}
+nav button:hover {
+    background-color: #000;
+}
+section{
+    background-image: url('assests/hero-bg-gradient.png');
+
+    height: 800px;
+    width: 100%;
+    background-size: cover;
+}
+.hero-container h1{font-size: 60px;
+max-width: 1050px;
+line-height: 99px;
+padding: 40px 80px;}
+.hero-interface{display: flex;
+justify-content: space-between;
+}
+.hero-content{
+    max-width: 491px;
+    margin: 0 auto;
+    margin-top: 56px;
+}
+
+.hero-content p{
+  
+font-size: 20px;
+color: #424242;
+font-weight: 500;
+line-height: 36px;
+}
+.content-buttons
+{
+    margin-top: 36px;
+}
+.content-buttons button{
+
+    padding: 16px 32px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+.content-buttons button:nth-child(1){
+    background-color: #7162B5;
+    margin-right: 16px;
+}
+.content-buttons button:nth-child(2){
+    background-color: #424242;
+}
